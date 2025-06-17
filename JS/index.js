@@ -54,3 +54,55 @@ function suma(a,b){
 document.getElementById('resultado').innerHTML = suma(3,10);
 
 
+var array1 = [1,2,3,4,5];
+console.log(array1[2]);
+console.log(typeof(array1));
+
+var diccionario1 ={
+        nombre:"Jeanpier",
+        apellido: "Ancori",
+        dni: 12121212
+    }
+console.log(diccionario1['nombre']);
+
+var alumnos = [{
+                    nombre:"Jeanpier",
+                    apellido: "Ancori",
+                    dni: 12121212
+                },
+                {
+                    nombre:"Pablo",
+                    apellido: "Ancori",
+                    dni: 12121212,
+                    cursos:["HTML","CSS","JS"]
+                },  
+                {
+                    nombre:"Juan",
+                    apellido: "Ancori",
+                    dni: 12121212
+                }
+            ];
+console.log(alumnos[1]['nombre']);
+console.log(alumnos[1]['cursos'][0]);
+
+console.log(alumnos[0]['nombre']);
+console.log(alumnos[1]['nombre']);
+console.log(alumnos[2]['nombre']);
+
+
+for(let i=0; i<=2; i++){
+    console.log(alumnos[i]['nombre']);
+}
+
+var object = {
+    nombre:"Juan",
+    apellido: "Ancori"
+
+}
+for(let i in alumnos){
+    console.log("Mi nombre es:  " + alumnos[i].nombre);
+
+}
+
+
+
