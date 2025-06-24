@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+.players{
+    background-color: rgb(186, 199, 210);
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap :20px;
+
+}
+.player-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.player-image{
+    width: 150px;
+    border-radius: 12px;
+    
+} 
+
+
+
+
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #0b0b45; /* Azul oscuro */
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .navbar .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: #1e1e70;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 10px;
+    }
